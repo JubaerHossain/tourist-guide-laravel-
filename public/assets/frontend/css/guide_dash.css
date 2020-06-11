@@ -1,0 +1,95 @@
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -90px  0px;
+    z-index: 9;
+    width: 20%; 
+    margin-left: 38%;
+    margin-right: 38%;
+    /* border-radius: 100%; */
+    
+}
+
+@media (max-width:768px)
+{
+    
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%; 
+}
+}
+.change-img{
+    margin: -90px  0px;
+    z-index: 9;
+    width: 20%; 
+    margin-left: 38%;
+    margin-right: 38%;
+    border-radius: 100%;
+}
+.text-block {
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    top: 35%;
+  }
+.profile-block {
+    margin-left: 40%;
+    margin-right: 38%;
+    top: 35%;
+  }
+  .fb-profile{
+    position: relative;
+  }
+  label.file-upload {
+    position: relative;
+    overflow: hidden;
+  }
+  label.file-upload input[type="file"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+    }
+    .btn-profile {
+        padding: 3px 3px 3px 3px;
+    }
+    .information-profile input{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .information-profile button{
+        text-align: center;
+    }
+.information-profile label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.file-pic{
+    width: 50%;
+    height: 43px!important;
+    /* background: #fff!important; */
+    color: #000!important;
+    font-size: 13px;
+    border: 1px solid #ced4da;
+    line-height: 1.5;
+}    
